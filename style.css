@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+color: #fff;
+  background: rgb(14, 18, 191);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 18, 191, 0.9391106784510679) 34%,
+    rgba(46, 44, 46, 1) 82%
+  );
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+}
+
+#title {
+    color: yellow;
+    text-transform: uppercase;
+}
